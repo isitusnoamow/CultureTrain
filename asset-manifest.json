@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CultureTrain/static/css/main.7ed8d38f.css",
+    "main.js": "/CultureTrain/static/js/main.0016bc3f.js",
+    "static/js/787.47ecfb08.chunk.js": "/CultureTrain/static/js/787.47ecfb08.chunk.js",
+    "index.html": "/CultureTrain/index.html",
+    "main.7ed8d38f.css.map": "/CultureTrain/static/css/main.7ed8d38f.css.map",
+    "main.0016bc3f.js.map": "/CultureTrain/static/js/main.0016bc3f.js.map",
+    "787.47ecfb08.chunk.js.map": "/CultureTrain/static/js/787.47ecfb08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ed8d38f.css",
+    "static/js/main.0016bc3f.js"
+  ]
+}
