@@ -1,0 +1,121 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+.main{
+    width: 1280px;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+}
+
+.area{
+    position: absolute;
+    width: 925px;
+    height: 415px;
+    transform: translate(180px, 150px);
+    z-index: 1;
+}
+
+.image-gallery-slide img{
+    width: 1280px;
+    height: 720px;
+  }
+
+.image-gallery{
+    width: 1280px;
+}
+
+html{
+    background-color: #061127;
+}
+
+.title{
+    color: white;
+}
+
+.subtitle{
+    color: white;
+}
+
+.description-eth{
+    color: white;
+    font-size: 35px;
+}
+
+.description-eth-jp{
+    color: white;
+    font-size: 30px;
+}
+
+.description-eth-us{
+    color: white;
+    font-size: 30px;
+}
+
+.description-food{
+    color: white;
+    font-size: 25px;
+}
+
+.description-food-jp{
+    color: white;
+    font-size: 23px;
+}
+
+.description-art{
+    color: white;
+    font-size: 23px;
+}
+
+.description-art-jp{
+    color: white;
+    font-size: 22px;
+}
+
+.description-culture{
+    color:white;
+    font-size: 30px;
+}
+
+.xiangqi{
+    position: absolute;
+    transform: translate(-400px,-200px);
+}
+
+.description-ent{
+    color: white;
+    font-size: 20px;
+    width: 700px;
+    margin-left: 200px;
+}
+
+.description-ent-us{
+    color: white;
+    font-size: 27px;
+}
+
+.description-ent-jp{
+    color: white;
+    font-size: 24px;
+}
+
+figcaption{
+    color:white;
+}
+
+.pictures{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.backa{
+    background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%);
+    margin: 0 auto;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    border-radius: 10px;
+    display: block;
+}

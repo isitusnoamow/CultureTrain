@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+.main{
+  background-color: #061127;
+  width: 1280px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+  background: -webkit-linear-gradient(180deg, rgba(223,242,0,1) 22%, rgba(252,255,68,1) 61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 72px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+  color: white;
+  font-size: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flow{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+}
+
+.chinaimg{
+  background: url(https://raw.githubusercontent.com/isitusnoamow/CultureTrain-Images/main/train.png);
+  width: 426px;
+  height: 720px;
+}
+
+.chinatitle{
+  color: #002B7E;
+  font-size: 70px;
+}
+
+.china:hover .chinatitle{
+  color: red;
+}
+
+.china:hover #china1{
+  color: yellow;
+}
+
+.china:hover .chinaimg{
+  background: url(https://raw.githubusercontent.com/isitusnoamow/CultureTrain-Images/main/trainon.png);
+}
+
+.japanimg{
+  background: url(https://raw.githubusercontent.com/isitusnoamow/CultureTrain-Images/main/train.png);
+  width: 426px;
+  height: 720px;
+}
+
+.japantitle{
+  color: #002B7E;
+  font-size: 70px;
+}
+
+.japan:hover .japantitle{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.japan:hover #japan1{
+  color: red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.japan:hover .japanimg{
+  background: url(https://raw.githubusercontent.com/isitusnoamow/CultureTrain-Images/main/trainon.png);
 }
+
+.usaimg{
+  background: url(https://raw.githubusercontent.com/isitusnoamow/CultureTrain-Images/main/train.png);
+  width: 426px;
+  height: 720px;
+}
+
+.usatitle{
+  color: #002B7E;
+  font-size: 70px;
+}
+
+.usa:hover .usatitle{
+  color: blue;
+}
+
+.usa:hover #usa1{
+  color: red;
+}
+
+.usa:hover #usa2{
+  color: white;
+}
+
+.usa:hover .usaimg{
+  background: url(https://raw.githubusercontent.com/isitusnoamow/CultureTrain-Images/main/trainon.png);
+}
+
+a{
+  text-decoration: none;
+}
+
